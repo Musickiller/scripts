@@ -13,7 +13,7 @@ RD /Q /S "%localappdata%\Waterfox"
 RD /Q /S "%localappdata%\Moonchild Productions\Pale Moon\Profiles"
 
 REM Chrome-like
-RD /Q /S "%systemdrive%\Users\%USERNAME%\AppData\Local\Google\Chrome\User Data"
+RD /Q /S "%localappdata%\Google\Chrome\User Data"
 
 REM Other
 RD /Q /S "%systemdrive%\Users\%USERNAME%\AppData\Local\Opera Software\Opera Stable\Cache"
